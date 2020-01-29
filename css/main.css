@@ -1,0 +1,128 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 0;
+    
+}
+nav {
+    margin-top: 33px;
+    margin-left: 36px;
+    height: 65px;
+}
+.logo {
+    height: 65px;
+    margin-left: 30px;
+}
+a.nav {
+    text-decoration: none;
+    padding-left: 35px;
+    color: #183450;
+}
+a:visited {
+    color: #183450;
+}  
+a:hover {
+    color:#24A3C2;
+    transition: 0.3s;
+}
+
+.anchors {
+    display: inline-block;
+    position: absolute;
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    right: 90px;
+}
+
+.loginform {
+    width: 275px;
+    border: solid rgb(238, 231, 231);
+    border-width: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(104, 145, 235, 0.2);
+    transition: 0.3s;
+}
+.loginform a{
+    text-decoration: none;
+    color: #59B2E3;
+}
+.loginform a:visited {
+    color: #59B2E3;
+}  
+.loginform a:hover {
+    color: #0D56B3;
+    transition: 0.2s;
+}
+.loginform input {
+    font-size: 24px;
+    color: lightblue;
+}
+.loginform input:focus {
+    color: black;
+}
+.loginform button {
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+.loginform button:hover {
+    background-color: #183450;
+    transition: 0.2s;
+}
+.loginform p {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #183450;
+    margin-top: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 72px;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.footer img{
+    height: 65px;
+    margin-left: 100px;
+}
+
+/* Media Queries 
+@media screen and (min-width:320px){
+    nav {
+       display: flex;
+       flex-direction: row;
+       margin-left: 10px;
+       margin-top: 23px;
+    }
+    .logo {
+      height: 25px;
+      margin-left: 0px;
+      padding-top: 25px;
+    }
+    a.nav {
+      font-size: 16px;
+      padding-left: 10px;
+    }
+    .anchors {
+      right: 10px;
+      padding-bottom: 30px;
+    }
+    .loginform h1 {
+        font-size: 20px;
+    }
+    .loginform input {
+        font-size: 18px;
+    }
+    .loginform button {
+        font-size: 12px;
+    }
+}
+*/
