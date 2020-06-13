@@ -52,6 +52,7 @@ a:hover {
 .loginform input {
     font-size: 16px;
     color: lightblue;
+    width: 90%;
 }
 .loginform input:focus {
     color: black;
